@@ -19,6 +19,7 @@ A three-page executive Power BI report for **Global Superstore**, a retailer sel
 | Profit before shipping | **1.47M (11.6% of sales)** |
 | Shipping cost | **1.35M (10.7% of sales)** |
 | Net Profit (profit after shipping) | **about 115K, a 0.91% margin** |
+| Year-on-year sales growth (2014 vs 2013) | **26.3%** |
 | Orders | **25,035** across **1,590** customer accounts |
 | Average order value | **505** |
 | Returned orders | **1,172 (4.68% of orders)** |
@@ -57,7 +58,7 @@ A three-page executive Power BI report for **Global Superstore**, a retailer sel
 
 1. **Modelled the data as a star schema:** one fact table (`Fact Orders Sales`) with `Dim Customers`, `Dim Products`, `Dim Regions` and a `Date Master` calendar table.
 2. **Joined the Returns and People sheets** so returned orders and regional managers are available in the model.
-3. **Built a Key Measures table** of DAX measures, including Total Sales, Total Net Profit, Net Profit Margin %, YoY Sales Growth %, Average Order Value, Repeat Customer Rate %, Return Rate %, Shipping Cost Per Unit, Avg Days to Ship, Cumulative Sales % and Unprofitable Customer Loss.
+3. **Built a Key Measures table** of DAX measures, including Total Sales, Total Net Profit, Net Profit Margin %, YoY Sales Growth %, Average Order Value, Repeat Customer Rate %, Return Rate %, Shipping Cost Per Unit, Avg Days to Ship, Cumulative Sales % and Unprofitable Customer Loss. YoY growth compares the latest selected year with the year before it, so it stays correct when several years are selected, and the Pareto line is a running share of sales that reaches 100%.
 4. **Designed a three-page layout** with a shared slicer sidebar, navigation and reset buttons.
 5. **Defined Net Profit as profit minus shipping cost**, so every page shows the true cost of delivery.
 
