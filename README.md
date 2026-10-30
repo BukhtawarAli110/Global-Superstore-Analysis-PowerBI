@@ -98,3 +98,7 @@ A three-page executive Power BI report for **Global Superstore**, a retailer sel
 
 Built by **Bukhtawar Ali** as part of the *AI-Powered Analytics with Power BI* course (EduHubSpot), 2026.
 [LinkedIn](https://www.linkedin.com/in/bukhtawar-ali-4441291a9) · [Portfolio](https://bukhtawarali110.github.io) · [GitHub](https://github.com/BukhtawarAli110)
+
+## Licence
+
+MIT, see [LICENSE](LICENSE). The report, DAX and documentation are mine; the dataset belongs to its original publisher.
